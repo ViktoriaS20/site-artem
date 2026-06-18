@@ -1,0 +1,192 @@
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav{
+    background-color: rgb(133, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1{
+    margin: 30px;
+    float: left;
+    font-size: 60px;
+}
+
+.main{
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    border-radius: 20px;
+    border:3px solid rgb(133, 20, 20);
+}
+
+.p1{
+    float: left;
+    font-size: 20px;
+    width: 500px;
+    margin: 30px;
+}
+
+.hhh{
+    float: left;
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: goldenrod;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.hhh:hover{
+    background-color: gold;
+    transition: all 1.4s;
+}
+
+.gallery {
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    float: left;
+    margin-top: 100px;
+}
+
+
+.gallery img{
+    width: 200px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.review{
+    float: left;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+.review-card {
+    display: flex;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+.content h4 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+.content p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+h3{
+display: flex;    
+padding: 20px;
+    border-radius: 8px;
+    float: left;
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(133, 20, 20);
+    width: 1200px;
+}
+
+
+
+        .booking-form {
+            background-color: #F5F5DC; /* Бежевый фон формы (бумажный) */
+            border: 3px solid #8B0000; /* Бордовый контур */
+            border-radius: 15px;
+            padding: 40px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        /* --- Заголовок --- */
+        .booking-form h2 {
+            text-align: center;
+            color: #8B0000; /* Бордовый заголовок */
+            border-bottom: 2px solid gold; /* Золотая линия */
+            padding-bottom: 15px;
+        }
+
+        /* --- Поля ввода и селекторы --- */
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #5C4033; /* Коричневый текст */
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 2px solid #CD853F; /* Золотисто-коричневая рамка */
+            background-color: #FFF8DC; /* Светло-бежевый */
+            color: #333;
+            font-size: 16px;
+        }
+
+        /* --- Кнопка отправки --- */
+        .submit-btn {
+            background-color: #8B0000; /* Бордовый фон кнопки */
+            color: gold; /* Золотой текст */
+            border: none;
+            padding: 14px 25px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: gold; /* Меняем на золотой при наведении */
+            color: #8B0000; /* Меняем текст на бордовый */
+        }
+
+        .submit-btn:active {
+            transform: scale(0.98);
+        }
+
+        /* --- Чекбокс и текст политики --- */
+        .policy-group {
+            display: flex;
+            align-items: center;
+            margin-top: -15px;
+        }
+
+        .policy-group input {
+            margin-right: 10px;
+        }
+
+.booking-form {
+    margin-top: 50px; /* отступ сверху */
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.booking-form {
+    width: 400px;       /* ширина формы */
+    margin: 50px auto;  /* центрирование */
+}
